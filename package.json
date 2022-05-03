@@ -1,7 +1,7 @@
 {
   "name": "quick-minifier",
   "author": "paiode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly JavaScript and CSS minifier using Toptal API.",
   "license": "MIT",
   "main": "main.js",

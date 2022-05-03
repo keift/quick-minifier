@@ -11,6 +11,12 @@
 
 Quickly JavaScript and CSS minifier using Toptal API.
 
+## Installation
+
+```sh-session
+npm install quick-minifier
+```
+
 ## Examples
 
 ### JavaScript
