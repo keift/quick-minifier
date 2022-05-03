@@ -1,0 +1,26 @@
+{
+  "name": "quick-minifier",
+  "author": "paiode",
+  "version": "1.0.0",
+  "description": "Quickly JavaScript and CSS minifier using Toptal API.",
+  "license": "MIT",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "qs": "^6.10.3"
+  },
+  "engines": {
+    "node": ">= 12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paiode/quick-minifier.git"
+  },
+  "keywords": [
+    "javascript",
+    "javascript-minifier",
+    "css",
+    "css-minifier",
+    "minifier"
+  ]
+}
