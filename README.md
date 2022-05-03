@@ -3,6 +3,7 @@
 ## Contents
 
   * [About](#about)
+  * [Installation](#installation)
   * [Examples](#examples)
     * [JavaScript](#javascript)
     * [CSS](#css)
