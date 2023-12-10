@@ -1,1 +1,1 @@
-module.exports.log = (o => console.log("\x1b[36mQuick Minifier \x1b[34m» \x1b[32m" + o + "\x1b[0m")), module.exports.error = (o => console.error("\x1b[36mQuick Minifier \x1b[34m» \x1b[31m" + o + "\x1b[0m"));
+module.exports.log = r => console.log("\x1b[36mQuick Minifier \x1b[34m\xbb \x1b[32m" + r + "\x1b[0m"), module.exports.error = r => console.error("\x1b[36mQuick Minifier \x1b[34m\xbb \x1b[31m" + r + "\x1b[0m");

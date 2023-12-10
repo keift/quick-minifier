@@ -1,13 +1,7 @@
 const axios = require("axios")
     , qs = require("qs");
-module.exports = (e => new Promise((s, r) => {
-    axios.post("https://www.toptal.com/developers/javascript-minifier/raw", qs.stringify({
-            input: e
-        }))
-        .then(e => {
-            s(e.data)
-        })
-        .catch(e => {
-            e.response ? r("HTTP Error: " + e.response.statusText + " " + e.response.status) : r("Connection Error: Check your internet connection.")
-        })
-}));
+module.exports = s => new Promise((t, e) => {
+    axios.post("https://www.toptal.com/developers/javascript-minifier/raw", qs.stringify({ input: s }))
+        .then(s => { t(s.data) })
+        .catch(s => { s.response ? e("HTTP Error: " + s.response.statusText + " " + s.response.status) : e("Connection Error: Check your internet connection.") })
+});
