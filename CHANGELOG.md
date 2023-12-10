@@ -2,6 +2,8 @@
 
 _Updated on December 10, 2023_
 
+<br/>
+
 ## v1.0.2 → v1.1.0
 
 _Updated on December 10, 2023_
@@ -9,6 +11,8 @@ _Updated on December 10, 2023_
 ### Resource Updates
 
 - **Updated [[LICENSE.md]](LICENSE.md) file.** The organization name in the license has been changed.
+
+<br/>
 
 ## v1.0.1 → v1.0.2
 
